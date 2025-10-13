@@ -1,19 +1,19 @@
 class Tipo {
   int? _codigo;
-  String? _nome;
+  String? _descricao;
 
   //construtor
-  Tipo({int? codigo, String? nome}) {
+  Tipo({int? codigo, String? descricao}) {
     _codigo = codigo;
-    _nome = nome;
+    _descricao = descricao;
   }
 
 //getters
   int? get codigo => _codigo;
 
-  String? get nome => _nome;
+  String? get descricao => _descricao;
 
 //setters
   set codigo(int? novoCodigo) => _codigo = novoCodigo;
-  set nome(String? novoNome) => _nome = novoNome;
+  set descricao(String? novodescricao) => _descricao = novodescricao;
 }
